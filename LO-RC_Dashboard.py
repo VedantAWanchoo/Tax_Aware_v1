@@ -34,7 +34,11 @@ total_lookback = lookback_months + skip_months
 if st.sidebar.button('Run'):
 
 
-    data=pd.read_excel(r'C:\Users\Vedant Wanchoo\Desktop\CGS 2020\AQR Inquiry\Tax Aware Strategies\S&P_500_2025-06-13_Cleaned.xlsx')
+    #data=pd.read_excel(r'C:\Users\Vedant Wanchoo\Desktop\CGS 2020\AQR Inquiry\Tax Aware Strategies\S&P_500_2025-06-13_Cleaned.xlsx')
+
+    #data=pd.read_excel(r'C:\Users\Vedant Wanchoo\Desktop\CGS 2020\Streamlit_Explore\Tax Aware Trial\S&P_500_2025-06-13_Cleaned.xlsx')
+
+    data = pd.read_excel('S&P_500_2025-06-13_Cleaned.xlsx')
 
 
     data['Date'] = pd.to_datetime(data['Date'])
