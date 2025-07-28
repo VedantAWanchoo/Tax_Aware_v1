@@ -1,4 +1,4 @@
-# Tax_Aware_v1
+# Tax Effecient Portfolio Transition (Long Only vs. Relaxed Constraint)
 
 
 Based on the research paper " Tax-Efficient Portfolio Transition", I test a long only momentum strategy against a relaxed constraint momentum strategy.
